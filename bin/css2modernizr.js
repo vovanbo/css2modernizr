@@ -78,4 +78,6 @@ fs.readFile(filename, 'utf8', function(err, data) {
   });
 
   console.log(table.toString());
+
+  console.log("\nDownload your Modernizr custom build by URL:\n".green + results.download_url);
 });
