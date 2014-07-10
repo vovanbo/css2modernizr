@@ -15,7 +15,7 @@ $ npm install --save css2modernizr
 
 ```javascript
 var css2modernizr = require('css2modernizr');
-css2modernizr.awesome(); // "awesome"
+var result = css2modernizr(css, prefix).usage();
 ```
 
 ## API
@@ -25,12 +25,11 @@ _(Coming soon)_
 
 ## Contributing
 
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [gulp](http://gulpjs.com/).
-
 
 ## Release History
 
-_(Nothing yet)_
+### 0.0.1
+* Initial release.
 
 
 ## License
