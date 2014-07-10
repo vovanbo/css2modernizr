@@ -1,0 +1,597 @@
+{
+  "flexbox": {
+    "dependencies": ["flexbox", "domprefixes", "testprop", "testallprops"]
+  },
+
+  "flexboxlegacy": {
+    "dependencies": ["flexboxlegacy", "domprefixes", "testprop", "testallprops"]
+  },
+
+  "canvas": {
+    "dependencies": ["canvas"]
+  },
+
+  "canvastext": {
+    "dependencies": ["canvastext", "canvas"]
+  },
+
+  "webgl": {
+    "dependencies": ["webgl"]
+  },
+
+  "touch": {
+    "dependencies": ["touch", "prefixes", "testbundle", "teststyles"]
+  },
+
+  "geolocation": {
+    "dependencies": ["geolocation"]
+  },
+
+  "postmessage": {
+    "dependencies": ["postmessage"]
+  },
+
+  "websqldatabase": {
+    "dependencies": ["websqldatabase"]
+  },
+
+  "indexeddb": {
+    "dependencies": ["indexeddb", "domprefixes", "testprop", "testallprops"]
+  },
+
+  "hashchange": {
+    "dependencies": ["hashchange", "hasevent"]
+  },
+
+  "history": {
+    "dependencies": ["history"]
+  },
+
+  "draganddrop": {
+    "dependencies": ["draganddrop", "hasevent"]
+  },
+
+  "websockets": {
+    "dependencies": ["websockets", "domprefixes"]
+  },
+
+  "rgba": {
+    "dependencies": ["rgba"]
+  },
+
+  "hsla": {
+    "dependencies": ["hsla"]
+  },
+
+  "multiplebgs": {
+    "dependencies": ["multiplebgs"]
+  },
+
+  "backgroundsize": {
+    "dependencies": ["backgroundsize", "domprefixes", "testprop", "testallprops"]
+  },
+
+  "borderimage": {
+    "dependencies": ["borderimage", "domprefixes", "testprop", "testallprops"]
+  },
+
+  "borderradius": {
+    "dependencies": ["borderradius", "domprefixes", "testprop", "testallprops"]
+  },
+
+  "boxshadow": {
+    "dependencies": ["boxshadow", "domprefixes", "testprop", "testallprops"]
+  },
+
+  "textshadow": {
+    "dependencies": ["textshadow"]
+  },
+
+  "opacity": {
+    "dependencies": ["opacity", "prefixes"]
+  },
+
+  "cssanimations": {
+    "dependencies": ["cssanimations", "domprefixes", "testprop", "testallprops"]
+  },
+
+  "csscolumns": {
+    "dependencies": ["csscolumns", "domprefixes", "testprop", "testallprops"]
+  },
+
+  "cssgradients": {
+    "dependencies": ["cssgradients", "prefixes"]
+  },
+
+  "cssreflections": {
+    "dependencies": ["cssreflections", "domprefixes", "testprop", "testallprops"]
+  },
+
+  "csstransforms": {
+    "dependencies": ["csstransforms", "domprefixes", "testprop", "testallprops"]
+  },
+
+  "csstransforms3d": {
+    "dependencies": ["csstransforms3d", "prefixes", "domprefixes", "testprop", "testbundle", "teststyles", "testallprops"]
+  },
+
+  "csstransitions": {
+    "dependencies": ["csstransitions", "domprefixes", "testprop", "testallprops"]
+  },
+
+  "fontface": {
+    "dependencies": ["fontface", "testbundle", "teststyles"]
+  },
+
+  "generatedcontent": {
+    "dependencies": ["generatedcontent", "smile", "testbundle", "teststyles"]
+  },
+
+  "video": {
+    "dependencies": ["video"]
+  },
+
+  "audio": {
+    "dependencies": ["audio"]
+  },
+
+  "localstorage": {
+    "dependencies": ["localstorage"]
+  },
+
+  "sessionstorage": {
+    "dependencies": ["sessionstorage"]
+  },
+
+  "webworkers": {
+    "dependencies": ["webworkers"]
+  },
+
+  "applicationcache": {
+    "dependencies": ["applicationcache"]
+  },
+
+  "svg": {
+    "dependencies": ["svg", "ns"]
+  },
+
+  "inlinesvg": {
+    "dependencies": ["inlinesvg", "ns"]
+  },
+
+  "smil": {
+    "dependencies": ["smil", "ns"]
+  },
+
+  "svgclippaths": {
+    "dependencies": ["svgclippaths", "ns"]
+  },
+
+  "adownload": {
+    "dependencies": ["a_download"]
+  },
+
+  "audiodata": {
+    "dependencies": ["audio_audiodata_api"]
+  },
+
+  "webaudio": {
+    "dependencies": ["audio_webaudio_api"]
+  },
+
+  "battery": {
+    "dependencies": ["battery_api", "domprefixes", "testprop", "testallprops", "prefixed"]
+  },
+
+  "lowbattery": {
+    "dependencies": ["battery_level", "domprefixes", "testprop", "testallprops", "prefixed"]
+  },
+
+  "blobconstructor": {
+    "dependencies": ["blob_constructor"]
+  },
+
+  "todataurljpeg": {
+    "dependencies": ["canvas_todataurl_type", "canvas"]
+  },
+
+  "todataurlwebp": {
+    "dependencies": ["canvas_todataurl_type", "canvas"]
+  },
+
+  "contenteditable": {
+    "dependencies": ["contenteditable"]
+  },
+
+  "contentsecuritypolicy": {
+    "dependencies": ["contentsecuritypolicy"]
+  },
+
+  "contextmenu": {
+    "dependencies": ["contextmenu"]
+  },
+
+  "cookies": {
+    "dependencies": ["cookies"]
+  },
+
+  "cors": {
+    "dependencies": ["cors"]
+  },
+
+  "bgpositionshorthand": {
+    "dependencies": ["css_backgroundposition_shorthand"]
+  },
+
+  "bgpositionxy": {
+    "dependencies": ["css_backgroundposition_xy", "teststyles"]
+  },
+
+  "bgrepeatround": {
+    "dependencies": ["css_backgroundrepeat", "teststyles"]
+  },
+
+  "bgrepeatspace": {
+    "dependencies": ["css_backgroundrepeat", "teststyles"]
+  },
+
+  "bgsizecover": {
+    "dependencies": ["css_backgroundsizecover", "teststyles"]
+  },
+
+  "boxsizing": {
+    "dependencies": ["css_boxsizing", "testallprops"]
+  },
+
+  "csscalc": {
+    "dependencies": ["css_calc", "prefixes"]
+  },
+
+  "cubicbezierrange": {
+    "dependencies": ["css_cubicbezierrange", "prefixes"]
+  },
+
+  "display-runin": {
+    "dependencies": ["css_displayrunin", "teststyles"]
+  },
+
+  "display-table": {
+    "dependencies": ["css_displaytable"]
+  },
+
+  "cssfilters": {
+    "dependencies": ["css_filters", "prefixes"]
+  },
+
+  "csshyphens": {
+    "dependencies": ["css_hyphens", "prefixes", "testallprops"]
+  },
+
+  "softhyphens": {
+    "dependencies": ["css_hyphens", "prefixes", "testallprops"]
+  },
+
+  "softhyphensfind": {
+    "dependencies": ["css_hyphens", "prefixes", "testallprops"]
+  },
+
+  "lastchild": {
+    "dependencies": ["css_lastchild", "teststyles"]
+  },
+
+  "cssmask": {
+    "dependencies": ["css_mask", "testallprops"]
+  },
+
+  "mediaqueries": {
+    "dependencies": ["css_mediaqueries", "teststyles", "mq"]
+  },
+
+  "object-fit": {
+    "dependencies": ["css_objectfit", "prefixed"]
+  },
+
+  "overflowscrolling": {
+    "dependencies": ["css_overflow_scrolling", "testallprops"]
+  },
+
+  "pointerevents": {
+    "dependencies": ["css_pointerevents"]
+  },
+
+  "csspositionsticky": {
+    "dependencies": ["css_positionsticky", "prefixes"]
+  },
+
+  "regions": {
+    "dependencies": ["css_regions", "prefixed"]
+  },
+
+  "cssremunit": {
+    "dependencies": ["css_remunit"]
+  },
+
+  "cssresize": {
+    "dependencies": ["css_resize", "testallprops"]
+  },
+
+  "cssscrollbar": {
+    "dependencies": ["css_scrollbars", "prefixes", "teststyles"]
+  },
+
+  "shapes": {
+    "dependencies": ["css_shapes", "testallprops"]
+  },
+
+  "subpixelfont": {
+    "dependencies": ["css_subpixelfont", "teststyles"]
+  },
+
+  "supports": {
+    "dependencies": ["css_supports"]
+  },
+
+  "userselect": {
+    "dependencies": ["css_userselect", "testallprops"]
+  },
+
+  "cssvhunit": {
+    "dependencies": ["css_vhunit", "teststyles"]
+  },
+
+  "cssvmaxunit": {
+    "dependencies": ["css_vmaxunit", "teststyles"]
+  },
+
+  "cssvminunit": {
+    "dependencies": ["css_vminunit", "teststyles"]
+  },
+
+  "cssvwunit": {
+    "dependencies": ["css_vwunit", "teststyles"]
+  },
+
+  "customprotocolhandler": {
+    "dependencies": ["custom_protocol_handler"]
+  },
+
+  "dataview": {
+    "dependencies": ["dataview_api"]
+  },
+
+  "classlist": {
+    "dependencies": ["dom_classlist"]
+  },
+
+  "createelement-attrs": {
+    "dependencies": ["dom_createElement_attrs"]
+  },
+
+  "dataset": {
+    "dependencies": ["dom_dataset"]
+  },
+
+  "microdata": {
+    "dependencies": ["dom_microdata"]
+  },
+
+  "datalistelem": {
+    "dependencies": ["elem_datalist"]
+  },
+
+  "details": {
+    "dependencies": ["elem_details"]
+  },
+
+  "outputelem": {
+    "dependencies": ["elem_output"]
+  },
+
+  "progressbar": {
+    "dependencies": ["elem_progress_meter"]
+  },
+
+  "meter": {
+    "dependencies": ["elem_progress_meter"]
+  },
+
+  "ruby": {
+    "dependencies": ["elem_ruby"]
+  },
+
+  "time": {
+    "dependencies": ["elem_time"]
+  },
+
+  "texttrackapi": {
+    "dependencies": ["elem_track"]
+  },
+
+  "track": {
+    "dependencies": ["elem_track"]
+  },
+
+  "emoji": {
+    "dependencies": ["emoji", "canvas", "canvastext"]
+  },
+
+  "strictmode": {
+    "dependencies": ["es5_strictmode"]
+  },
+
+  "devicemotion": {
+    "dependencies": ["event_deviceorientation_motion"]
+  },
+
+  "deviceorientation": {
+    "dependencies": ["event_deviceorientation_motion"]
+  },
+
+  "filereader": {
+    "dependencies": ["file_api"]
+  },
+
+  "filesystem": {
+    "dependencies": ["file_filesystem", "domprefixes"]
+  },
+
+  "fileinput": {
+    "dependencies": ["forms_fileinput"]
+  },
+
+  "formattribute": {
+    "dependencies": ["forms_formattribute"]
+  },
+
+  "localizedNumber": {
+    "dependencies": ["forms_inputnumber_l10n"]
+  },
+
+  "placeholder": {
+    "dependencies": ["forms_placeholder", "webforms", "input", "inputelem", "smile", "inputtypes"]
+  },
+
+  "speechinput": {
+    "dependencies": ["forms_speechinput"]
+  },
+
+  "formvalidation": {
+    "dependencies": ["forms_validation"]
+  },
+
+  "fullscreen": {
+    "dependencies": ["fullscreen_api", "domprefixes"]
+  },
+
+  "gamepads": {
+    "dependencies": ["gamepad"]
+  },
+
+  "getusermedia": {
+    "dependencies": ["getusermedia"]
+  },
+
+  "ie8compat": {
+    "dependencies": ["ie8compat"]
+  },
+
+  "sandbox": {
+    "dependencies": ["iframe_sandbox"]
+  },
+
+  "seamless": {
+    "dependencies": ["iframe_seamless"]
+  },
+
+  "srcdoc": {
+    "dependencies": ["iframe_srcdoc"]
+  },
+
+  "apng": {
+    "dependencies": ["img_apng", "canvas"]
+  },
+
+  "webp": {
+    "dependencies": ["img_webp"]
+  },
+
+  "json": {
+    "dependencies": ["json"]
+  },
+
+  "olreversed": {
+    "dependencies": ["lists_reversed"]
+  },
+
+  "mathml": {
+    "dependencies": ["mathml"]
+  },
+
+  "lowbandwidth": {
+    "dependencies": ["network_connection"]
+  },
+
+  "eventsource": {
+    "dependencies": ["network_eventsource"]
+  },
+
+  "xhr2": {
+    "dependencies": ["network_xhr2"]
+  },
+
+  "notification": {
+    "dependencies": ["notification", "domprefixes", "testprop", "testallprops", "prefixed"]
+  },
+
+  "performance": {
+    "dependencies": ["performance", "domprefixes", "testprop", "testallprops", "prefixed"]
+  },
+
+  "pointerlock": {
+    "dependencies": ["pointerlock_api", "prefixed"]
+  },
+
+  "quotamanagement": {
+    "dependencies": ["quota_management_api", "domprefixes", "testprop", "testallprops", "prefixed"]
+  },
+
+  "raf": {
+    "dependencies": ["requestanimationframe", "domprefixes", "testprop", "testallprops", "prefixed"]
+  },
+
+  "scriptasync": {
+    "dependencies": ["script_async"]
+  },
+
+  "scriptdefer": {
+    "dependencies": ["script_defer"]
+  },
+
+  "stylescoped": {
+    "dependencies": ["style_scoped"]
+  },
+
+  "svgfilters": {
+    "dependencies": ["svg_filters"]
+  },
+
+  "unicode": {
+    "dependencies": ["unicode", "teststyles"]
+  },
+
+  "datauri": {
+    "dependencies": ["url_data_uri"]
+  },
+
+  "userdata": {
+    "dependencies": ["userdata"]
+  },
+
+  "vibrate": {
+    "dependencies": ["vibrate"]
+  },
+
+  "webintents": {
+    "dependencies": ["web_intents"]
+  },
+
+  "websocketsbinary": {
+    "dependencies": ["websockets_binary"]
+  },
+
+  "framed": {
+    "dependencies": ["window_framed"]
+  },
+
+  "blobworkers": {
+    "dependencies": ["workers_blobworkers"]
+  },
+
+  "dataworkers": {
+    "dependencies": ["workers_dataworkers"]
+  },
+
+  "sharedworkers": {
+    "dependencies": ["workers_sharedworkers"]
+  }
+}
