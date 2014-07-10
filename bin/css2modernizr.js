@@ -1,0 +1,81 @@
+#!/usr/bin/env node
+
+'use strict';
+
+var fs = require('fs'),
+    _ = require('lodash'),
+    Table = require('cli-table'),
+    css2modernizr = require('../lib/css2modernizr');
+
+var args = process.argv.slice(2),
+    filename = '',
+    prefix = '';
+
+var usage = [
+  '',
+  '  Usage: css2modernizr [options] file',
+  '',
+  '  Options:',
+  '',
+  '    -P, --prefix [prefix]          Modernizr className prefix used in your CSS',
+  ''
+].join('\n');
+
+var arg;
+while (args.length) {
+  arg = args.shift();
+  switch (arg) {
+    case '-h':
+    case '--help':
+      console.error(usage);
+      process.exit(1);
+      break;
+    case '-P':
+    case '--prefix':
+      prefix = args.shift();
+      if (!prefix) {
+        throw new Error('--prefix <prefix> required');
+      }
+      break;
+    default:
+      filename = arg;
+  }
+}
+
+if (_.isEmpty(filename)) {
+  console.error(usage);
+  process.exit(1);
+}
+
+fs.readFile(filename, 'utf8', function(err, data) {
+  var results, table;
+
+  if (err) {
+    console.error(err);
+    process.exit(1);
+  }
+
+  console.log(
+      '\n' +
+      (prefix ? 'Prefix: '.green + prefix + ' ' : 'No prefix '.green) +
+      '(e.g. .' + prefix + 'no-flexbox, .' + prefix + 'rgba)' +
+      '\n'
+  );
+
+  results = css2modernizr(data, prefix).usage();
+
+  if (_.isEmpty(results.usage)) {
+    console.log('Modernizr is not used in this file.'.red);
+    process.exit(1);
+  }
+
+  table = new Table({
+    head: ["Name", "Count of usages"]
+  });
+
+  _.forEach(results.usage, function(result) {
+    table.push([result.name, result.count]);
+  });
+
+  console.log(table.toString());
+});
