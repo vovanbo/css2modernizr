@@ -28,8 +28,8 @@ _(Coming soon)_
 
 ## Release History
 
-### 0.0.1
-* Initial release.
+### 0.0.X
+* Initial releases, just CLI-tool, without main idea.
 
 
 ## License
