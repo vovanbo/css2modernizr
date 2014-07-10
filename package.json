@@ -6,6 +6,9 @@
   "bugs": "https://github.com/vovanbo/css2modernizr/issues",
   "license": "MIT",
   "main": "lib/css2modernizr.js",
+  "bin": {
+    "css2modernizr": "./bin/css2modernizr"
+  },
   "author": {
     "name": "Vladimir Bolshakov",
     "email": "vovanbo@gmail.com"
@@ -14,11 +17,16 @@
     "type": "git",
     "url": "https://github.com/vovanbo/css2modernizr"
   },
-  "keywords":[],
+  "keywords": [
+    "css",
+    "Modernizr"
+  ],
   "dependencies": {
+    "cli-table": "^0.3.0",
+    "colors": "^0.6.2",
+    "debug": "1.0.2",
     "lodash": "2.4.1",
-    "q": "2.0.2",
-    "debug": "1.0.2"
+    "postcss": "1.0.0"
   },
   "devDependencies": {
     "gulp": "^3.8.5",
