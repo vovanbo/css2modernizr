@@ -1,7 +1,7 @@
 {
   "name": "css2modernizr",
   "description": "Analyze your CSS and output only used Modernizr's settings",
-  "version": "0.0.3",
+  "version": "0.0.2",
   "homepage": "https://github.com/vovanbo/css2modernizr",
   "bugs": "https://github.com/vovanbo/css2modernizr/issues",
   "license": "MIT",
