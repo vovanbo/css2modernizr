@@ -6,12 +6,38 @@ Analyze your CSS and output only used Modernizr's settings
 
 ## Install
 
+### As command line tool:
+
+```bash
+$ npm install -g css2modernizr
+```
+
+_If you haven't sufficient permissions may be you should use_ ```sudo```
+
+### As node.js module for using in your project:
+
 ```bash
 $ npm install --save css2modernizr
 ```
 
 
 ## Usage
+
+### As command line tool:
+
+```bash
+css2modernizr /path/to/your/css/file.css
+```
+
+Or if you use Modernizr's prefixes in your css:
+
+```bash
+css2modernizr --prefix prfx- /path/to/your/css/file.css
+```
+
+Where ```prfx-``` is part in class name ```.prfx-no-flexbox``` or ```.prfx-rgba```
+
+### As node.js module:
 
 ```javascript
 var css2modernizr = require('css2modernizr');
