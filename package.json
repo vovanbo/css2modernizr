@@ -22,11 +22,10 @@
     "Modernizr"
   ],
   "dependencies": {
-    "cli-table": "^0.3.0",
+    "cli-table": "^0.3.1",
     "colors": "^0.6.2",
-    "debug": "1.0.2",
-    "lodash": "2.4.1",
-    "postcss": "1.0.0"
+    "lodash": "^3.10.1",
+    "postcss": "^5.0.12"
   },
   "devDependencies": {
     "gulp": "^3.8.5",
