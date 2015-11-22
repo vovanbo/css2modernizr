@@ -1,6 +1,6 @@
 {
   "name": "css2modernizr",
-  "description": "Analyze your CSS and output only used Modernizr's settings",
+  "description": "Creates a Modernizr config file that requires only the tests that your CSS uses.",
   "version": "0.1.0",
   "homepage": "https://github.com/vovanbo/css2modernizr",
   "bugs": "https://github.com/vovanbo/css2modernizr/issues",

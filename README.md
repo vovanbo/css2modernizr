@@ -1,7 +1,7 @@
 # css2modernizr 
 [![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-url]][daviddm-image] [![Coverage Status][coveralls-image]][coveralls-url]
 
-Analyze your CSS and output only used Modernizr's settings
+Creates a Modernizr config file that requires only the tests that your CSS uses.
 
 
 ## Install
