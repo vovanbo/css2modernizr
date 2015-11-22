@@ -134,13 +134,22 @@ _(Coming soon)_
 
 ## Release History
 
+### 0.1.0
+
+- Fixed bug with `lastIndex` in regular expression.
+- Update dependencies:
+  - PostCSS to 5.0.12
+  - lodash to 3.10.1
+- Example is added to README.
+
 ### 0.0.X
-* Initial releases, just CLI-tool, without main idea.
+
+- Initial releases, just CLI-tool, without main idea.
 
 
 ## License
 
-Copyright (c) 2014 Vladimir Bolshakov. Licensed under the MIT license.
+Copyright © 2014—2015 Vladimir Bolshakov. Licensed under the MIT license.
 
 
 
