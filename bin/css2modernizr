@@ -5,6 +5,7 @@
 var fs = require('fs'),
     _ = require('lodash'),
     Table = require('cli-table'),
+    colors = require('colors'),
     css2modernizr = require('../lib/css2modernizr');
 
 var args = process.argv.slice(2),
