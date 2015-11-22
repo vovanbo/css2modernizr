@@ -44,6 +44,86 @@ var css2modernizr = require('css2modernizr');
 var result = css2modernizr(css, prefix).usage();
 ```
 
+### Example
+
+Let's imagine we have the following CSS:
+
+```css
+.block {
+  display: flex;
+  flex-flow: column nowrap;
+  position: absolute;
+  z-index: 20;
+  left: 50%;
+  margin: 15px 0 0 0;
+  padding: 20px 20px 15px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  backface-visibility: hidden;
+  transform: translate(-50%, 0);
+  visibility: hidden;
+}
+
+.no-boxshadow .block {
+  border: 1px solid #bfbfbf;
+  border-top: none;
+  margin-top: 14px;
+}
+
+.no-rgba .block {
+  background-color: white;
+}
+
+.no-csstransforms .block {
+  left: 0;
+}
+
+.no-flexbox .block {
+  display: block;
+  z-index: 10;
+}
+
+.block__element {
+  position: absolute;
+  top: -10px;
+  left: calc(50% - 10px);
+  display: block;
+  height: 0;
+  width: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid white;
+}
+
+.no-csstransforms .block__element {
+  left: 0;
+}
+```
+
+If you run `css2modernizr` on this CSS, then result will be:
+
+```bash
+$ ./bin/css2modernizr test/example.css                                                                                                                                 develop [2deb29d] modified untracked
+
+No prefix (e.g. .no-flexbox, .rgba)
+
+┌───────────────┬─────────────────┐
+│ Name          │ Count of usages │
+├───────────────┼─────────────────┤
+│ csstransforms │ 2               │
+├───────────────┼─────────────────┤
+│ flexbox       │ 1               │
+├───────────────┼─────────────────┤
+│ rgba          │ 1               │
+├───────────────┼─────────────────┤
+│ boxshadow     │ 1               │
+└───────────────┴─────────────────┘
+
+Download your Modernizr custom build by URL:
+http://modernizr.com/download/#-boxshadow-csstransforms-domprefixes-flexbox-rgba-testallprops-testprop
+```
+
+
 ## API
 
 _(Coming soon)_
